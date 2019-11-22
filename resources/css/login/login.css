@@ -1,0 +1,68 @@
+body{
+	
+}
+.container{
+	border 3px solid black;
+	border-radius: 5px;
+	box-shadow: 2px 2px 10px #666;        /* Sombra normal */
+	box-shadow: 5px -5px 0 2px #444;      /* Sombra superior sin desenfoque */
+	box-shadow: 5px 5px 25px #222 inset;
+}
+.elementos{
+	background:white;
+}
+#imagenes{
+	border 3px solid black;
+	border-radius: 5px;
+	background: url(https://images.pexels.com/photos/799443/pexels-photo-799443.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940) no-repeat;
+	background-size: cover;
+	animation: cambio 20s infinite;
+}
+@keyframes cambio{
+	25%{
+		background: url(https://images.pexels.com/photos/1034662/pexels-photo-1034662.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500) no-repeat;		
+	}
+	50%{background: url(https://images.pexels.com/photos/910213/pexels-photo-910213.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500) no-repeat;}
+	75%{background: url(https://images.pexels.com/photos/1769408/pexels-photo-1769408.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500) no-repeat;}
+	100%{background: url(https://images.pexels.com/photos/799443/pexels-photo-799443.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940) no-repeat;}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
